@@ -1,0 +1,23 @@
+{
+  "name": "ipl_management",
+  "version": "1.0.0",
+  "description": "This is the API for the IPL players management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "author": "Sachin Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "joi": "^17.13.3",
+    "mongoose": "^8.14.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
